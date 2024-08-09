@@ -85,3 +85,12 @@ print("OR operator:", (a == b) or (a < b))
 
 
 
+# Write a program to input 2 numbers and print their sum
+First_number = int(input("Enter your first number: "))
+Second_number = int(input("Enter your second numebr: "))
+sum  = First_number + Second_number
+print(sum)
+
+# write a program to input side of a square and print its area.
+side = int(input("enter sider square: ")) 
+print("area: ", side * side)
