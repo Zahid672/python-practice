@@ -94,3 +94,9 @@ print(sum)
 # write a program to input side of a square and print its area.
 side = int(input("enter sider square: ")) 
 print("area: ", side * side)
+
+# write a program to input 2 floating point numbers and print their average
+F_number1 = float(input("Enter first number: "))
+F_number2 = float(input("Enter second number: "))
+aver = (F_number1 + F_number2) / 2
+print(aver)
