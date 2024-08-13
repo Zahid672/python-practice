@@ -100,3 +100,8 @@ F_number1 = float(input("Enter first number: "))
 F_number2 = float(input("Enter second number: "))
 aver = (F_number1 + F_number2) / 2
 print(aver)
+
+# write a program to input 2 int numbers, a and b. print true if a is greater than or equal to b. if not print False.
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+print(a >= b)
