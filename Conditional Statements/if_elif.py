@@ -6,7 +6,7 @@ if(light == "red"):
 elif(light == "green"):
     print("Go")
 elif(light == "yellow"):
-    print("Look")
+    print("Look") #indentation in python is very important.
 
 print("end of code")
 
