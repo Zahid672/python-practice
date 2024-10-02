@@ -57,4 +57,36 @@ for elements in list:
         break
 else:
     print(list)
+
+    #### search for a number x in tuple using for loop
+
+l = (1, 4, 9, 16, 25, 36, 49, 64)
+
+for el in l:
+    if(el == 16):
+        print("number found:", el)    
+        break
+
+
+#### write a program to add n natural numbers
+n = 5
+sum = 0
+
+for i in range(1, n+1):
+    sum += i
     
+    
+print("total sum", sum)
+
+
+## write a program to find the factorial of n numbers
+
+n = 5
+fact = 1
+i = 1 
+
+while i <= n:
+    fact *= i
+    i += 1
+
+print("total sum = ", fact)
