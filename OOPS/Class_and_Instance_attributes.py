@@ -18,7 +18,7 @@ print(s3.name,s3.marks)
 print(s3.college_name)
 
 
-####### when there is same name attribute (variable name) in class and object, then the precedence (priority) of object attribute is higher than class attribute. For example:
+####### when there is same name attribute (variable name) in class and object, then the precedence (priority or preference) of object attribute is higher than class attribute. For example:
 class Student:
     college_name = "MMS&C" 
     name = "ananymous"  ### class attribute
