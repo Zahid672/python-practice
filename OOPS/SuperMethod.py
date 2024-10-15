@@ -14,8 +14,10 @@ class Car:
 
 class ToyotaCar(Car):
     def __init__(self, name, type):
-        self.name = name
         super().__init__(type)
+        self.name = name
+        super().start()
+        
 
 
 car1 = ToyotaCar("prius", "electric")
