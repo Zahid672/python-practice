@@ -20,4 +20,7 @@ class Person:
 
 p1 = Person("Saeed", "Ahmad")
 p1.printname()
+
+
+
         
