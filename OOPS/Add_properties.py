@@ -15,3 +15,25 @@ class Student(Person):
         
 x = Student("Atif", "Niaz")
 print(x.graduationyear)
+
+
+## add the year 2020 as a variable, and passed into the Student class when creating student object. To do so, we add another parameter in the __init__() func.
+
+class Person:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+        
+    def printname(self):
+        print(self.firstname, self.lastname)
+        
+class Students(Person):
+    def __init__(self, fname, lname, year):
+        super().__init__(fname, lname)
+        self.graduationyear = year
+        
+y = Students("Asad", "Ullah", 2020)
+print(y.graduationyear)
+        
+        
+    
