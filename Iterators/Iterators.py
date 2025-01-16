@@ -13,3 +13,13 @@ myit = iter(mytuple)
 print(next(myit))
 print(next(myit))
 print(next(myit))
+
+### Every strings are iterable objects, and can return an iterator
+
+mystr = 'banana'
+myit = iter(mystr)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
+print(next(myit))
