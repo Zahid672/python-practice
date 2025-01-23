@@ -10,3 +10,5 @@ i = 3
 
 for i in range(n):
     print(i**2)
+    
+    
