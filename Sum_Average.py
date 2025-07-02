@@ -1,12 +1,5 @@
-n = 100
-total_numbers = n
-sum = 0
+A = [[1, 2, 10], [4, 3, 9]]
+B = [[0, 7, 8], [11, 1, 12]]
+# Calculate the sum of two matrices A and B using addition
 
-while n >= 0:
-    sum += n
-    n -= 1
-print(sum)
-
-average = sum / total_numbers
-print(average)
-    
+print(A + B)
